@@ -1,0 +1,36 @@
+
+/* Mise en forme de la partie "présentation" */
+
+
+section>div{
+    background-color: var(--my-red);
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+section>div>h1{
+    font-family: 'Major Mono Display', monospace;
+    color: white;
+}
+section>div>p{
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    max-width: 100%;
+    padding: 3%;
+}
+
+
+section>div>img{
+    display: none;
+}
+@media(min-width: 1000px){
+    #home-image{
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    }
+}
