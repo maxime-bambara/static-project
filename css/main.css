@@ -27,7 +27,7 @@ section>div>p{
 section>div>img{
     display: none;
 }
-@media(min-width: 1000px){
+@media(min-width: 1025px){
     #home-image{
     display: block;
     width: 100%;
