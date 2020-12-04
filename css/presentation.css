@@ -1,8 +1,7 @@
 
 /* Mise en forme de la partie "présentation" */
 
-
-section>div{
+.presentation>div{
     background-color: black;
     display: flex;
     text-align: justify;
@@ -12,11 +11,11 @@ section>div{
     border-radius: 10px;
 }
 
-section>div>h1{
+.presentation>div>h1{
     font-family: 'Major Mono Display', monospace;
     color: white;
 }
-section>div>p{
+.presentation>div>p{
     font-family: 'Roboto Slab', serif;
     color: white;
     max-width: 100%;
@@ -24,13 +23,6 @@ section>div>p{
 }
 
 
-section>div>img{
+.presentation>div>img{
     display: none;
-}
-@media(min-width: 1025px){
-    #home-image{
-    display: block;
-    width: 100%;
-    border-radius: 10px;
-    }
 }

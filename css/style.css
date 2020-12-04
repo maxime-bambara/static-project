@@ -1,21 +1,21 @@
 @import url(header.css);
-@import url(main.css);
+@import url(presentation.css);
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Roboto+Slab&display=swap');
-@import url(nav_home.css);
+@import url(links_home.css);
 @import url(footer.css);
 
-:root{
-    --my-red : #dbb8b6;
+* {
+    box-sizing: border-box;
 }
+
 
 body{
     margin: 0;
-    display: grid;
     margin: auto;
-    background-color: rgb(250, 246, 246);
-
-    
+    background-color: rgb(250, 246, 246);    
 }
+
+
 @media (min-width: 1025px) { 
     body{
         width: 80%;
@@ -24,26 +24,39 @@ body{
     main{
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
     }
 
-    .presentation{
-        width: 35%;
-    }
-    
-    nav{
+    .links{
+        all: unset;
         width: 65%;
+    }
+
+    .links>ul{
+        all: unset;
+        text-align: center;
         height: 100%;
-        margin-left: 10px;
-
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
-    nav>ul{
+
+    .links>ul>li{
+        margin: unset;
+        height: 30%;
+    }
+
+    .presentation {
+        all: unset;
+        width: 30%;
         height: 100%;
+
     }
 
-    nav>ul>li{
-        margin-top: 50px;
-        height: 24%;
-    }
-
-
+    #home-image{
+        display: block;
+        width: 100%;
+        border-radius: 10px;
+        }
+ 
  }
