@@ -3,7 +3,7 @@
 
 
 section>div{
-    background-color: var(--my-red);
+    background-color: black;
     display: flex;
     text-align: justify;
     flex-direction: column;

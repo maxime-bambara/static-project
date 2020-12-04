@@ -1,0 +1,51 @@
+@import url(header.css);
+@import url(footer.css);
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Roboto+Slab&display=swap');
+
+:root{
+    --my-red : #ec524b;
+}
+
+body{
+    margin: 0;
+    display: grid;
+    margin: auto;
+
+    
+}
+
+/* Lien retour au menu */
+ .back-home{
+    font-size: 38px;
+ }
+
+/* Style du contenu principal*/
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    background-color: var(--my-red);
+    margin-top: 10px;
+}
+
+section>div>h1{
+    font-family: 'Major Mono Display', monospace;
+    color: white;
+}
+
+
+
+
+
+
+ 
+ 
+ @media (min-width: 1000px) { 
+    body{
+        width: 80%;
+    }
+    
+ }
