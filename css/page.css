@@ -29,6 +29,11 @@ main {
 section{
     background-color: var(--my-red);
     margin-top: 10px;
+    transition: all 1s;
+}
+
+section:hover{
+    background-color: rgb(233, 192, 103);
 }
 
 section>h1{
@@ -57,7 +62,7 @@ section>p{
     padding: 3%;
 }
 
- @media (min-width: 1025px) { 
+ @media (min-width: 1200px) { 
     body{
         width: 80%;
     }

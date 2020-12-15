@@ -12,11 +12,11 @@
 body{
     margin: 0;
     margin: auto;
-    background-color: rgb(250, 246, 246);    
+    background-color: rgb(230, 230, 230);    
 }
 
 
-@media (min-width: 1025px) { 
+@media (min-width: 1200px) { 
     body{
         width: 80%;
     }
